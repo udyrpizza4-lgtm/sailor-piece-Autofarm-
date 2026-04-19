@@ -1,0 +1,32 @@
+local function script()
+    -- Check for specific executors using identifyexecutor
+    if identifyexecutor and (identifyexecutor() == "Xeno" or identifyexecutor() == "Solara" or identifyexecutor() == "Trigon" or identifyexecutor() == "Hydrogen" or identifyexecutor() == "Zenith" or identifyexecutor() == "Volcano" or identifyexecutor() == "Swift" or identifyexecutor() == "Potassium" or identifyexecutor() == "Seliware" or identifyexecutor() == "Velocity" or identifyexecutor() == "Cryptic") then
+        -- For Xeno or Solara executors
+        loadstring(game:HttpGet("https://pastefy.app/ZsYwBoUb/raw"))()
+    else
+        -- For other executors
+        loadstring(game:HttpGet("https://pastefy.app/ZsYwBoUb/raw"))()
+    end
+end
+
+local function loadui()
+    loadstring(game:HttpGet("https://pastefy.app/ZsYwBoUb/raw"))()
+end
+
+local function loadui()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/2x-Luck-Sailor-Piece-Midgard-201394"))()
+end
+
+task.spawn(script)
+task.wait(5)
+task.spawn(loadui) -- Auto copy Discord link after 5 seconds
+task.spawn(function()
+    task.wait(5)
+    setclipboard("i love diddy ")
+    WindUI:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
+end)
